@@ -3,10 +3,10 @@ import mysql from "mysql2/promise";
 
 // Buat koneksi pool
 const jbssms = mysql.createPool({
-  host: "192.168.182.37",
+  host: "",
   port: 3434,
   user: "root",
-  password: "kebersamaan",
+  password: "",
   database: "jbssms",
   waitForConnections: true,
   connectionLimit: 10,

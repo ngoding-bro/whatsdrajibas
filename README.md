@@ -30,5 +30,6 @@ Aplikasi ini berfungsi untuk meneruskan data absensi dari sistem **JIBAS** langs
 3. Instal Package
    ```bash
    npm install
-
-
+4. Start Bot
+    ```bash
+    npm start

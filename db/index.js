@@ -1,7 +1,5 @@
-// db/index.js
 import mysql from "mysql2/promise";
 
-// Buat koneksi pool
 const jbssms = mysql.createPool({
   host: "",
   port: 3434,
